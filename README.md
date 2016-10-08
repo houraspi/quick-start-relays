@@ -20,3 +20,6 @@ pip install gpiozero
 
 on your Raspberry Pi.
 
+# Hardware
+
+While this code is written specifically for use with [Robogaia 4 Relays Raspberry Pi Shield](http://www.robogaia.com/4-relays-raspberry-pi-plateshield.html), you can run it to control any relay by switching out the pin numbers.
