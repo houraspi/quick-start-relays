@@ -15,19 +15,19 @@ GPIO.setup(PINS, GPIO.OUT)
 print('Turn on relay 1!')
 GPIO.output(RELAY_PINS[1], True)
 
-time.sleep(10)
+time.sleep(5)
 
 # turn off by setting the output to False for a pin
 print('Turn off relay 1!')
 GPIO.output(RELAY_PINS[1], False)
 
-time.sleep(10)
+time.sleep(1)
 
 # turn on multiple relays
 print('Turn on all relays!')
 GPIO.output(PINS, True)
 
-time.sleep(10)
+time.sleep(5)
 
 # turn off multiple relays
 print('Turn off all relays!')
